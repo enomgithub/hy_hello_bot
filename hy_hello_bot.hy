@@ -75,7 +75,7 @@
 
 (defn main[]
   ((. random seed))
-  ((. *client* run) (. os environ ["DISCORD_TOKEN"]))
+  ((. *client* run) (. os environ ["DISCORD_OAUTH_TOKEN"]))
   0)
 
 
